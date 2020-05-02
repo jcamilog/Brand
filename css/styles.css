@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*   variables   */
+:root{
+--green-color: #7ACC2D;
+--white-color: white;
+--black-color: #313337;
+/*typography*/
+--normal-font:12px;
+/* Spacing*/
+--space:10px;
+/*BoxShadow*/
+--box:0 0 1px #e6e5e9;
+}
+/*   /variables   */
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: var(--normal-font);
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+nav li a:hover{
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+/*  --Main section    */
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    background-image: url("../img/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+}
+.product{
+    padding: var(--space);
+    margin-top: -250px;
+}
+.product .content{
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+}
+.img_content{
+    text-align: center;
+}
+.main_button{
+    background-color:var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal-font);
+    color: var(--white-color);
+    border: 0PX;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.main_button:hover{
+    background-color: #5e9e22;
+}
