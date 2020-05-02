@@ -83,3 +83,35 @@ nav li a:hover{
 .main_button:hover{
     background-color: #5e9e22;
 }
+.products__two{
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+}
+.product__two{
+    padding: 80px;
+}
+.content__two{
+    text-align: center;
+}
+.content__two img{
+    width: 150px;
+}
+.mentions{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mentions__list{
+    display: flex;
+    text-align: center;
+}
+.mentions__products{
+    margin: 10px;
+    width: 240px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
+.mentions__text{
+}
