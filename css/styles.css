@@ -104,6 +104,7 @@ nav li a:hover{
 .mentions__list{
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
 .mentions__products{
     margin: 10px;
@@ -114,4 +115,11 @@ nav li a:hover{
     background-color: #f4fbff;
 }
 .mentions__text{
+}
+.footer{
+    background-color: #313337;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }

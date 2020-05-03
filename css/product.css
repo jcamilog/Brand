@@ -1,0 +1,17 @@
+.product__title{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.product__two{
+    padding-top: 55px;
+}
+.img__cat-two{
+    width: 230px;
+}
+.img__cat-three{
+    width: 180px;
+}
+.product__text{
+    align-items: center;
+}
